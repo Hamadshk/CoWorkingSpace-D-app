@@ -83,6 +83,6 @@
 <h3>Video Demo 📹🎥</h3>
 <p align="center">
   <a href="https://youtu.be/sGOXX9iZYFM">
-    <img src="" alt="Watch the video" width="600">
+    <img src="./thumbnail.png" alt="Watch the video" width="600">
   </a>
 </p>
