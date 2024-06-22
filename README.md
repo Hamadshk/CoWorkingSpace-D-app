@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,3 +91,51 @@
 <br>Click on the pic to watch the video!
 
 </p>
+
+
+<h3>How to Run 🏃‍♂️💻</h3>
+<p>First of all, download the code <strong>co-working-space</strong>.</p>
+<ol>
+    <li>Install the node modules:
+        <pre>npm install</pre>
+    </li>
+    <li>Install and set up Ganache:
+        <ol>
+            <li>First, download Ganache.</li>
+            <li>Navigate to the Downloads directory:
+                <pre>cd ~/Downloads</pre>
+            </li>
+            <li>Make the Ganache AppImage executable:
+                <pre>chmod +x Ganache-&lt;version&gt;-linux-x86_64.AppImage</pre>
+            </li>
+            <li>Update the system:
+                <pre>sudo apt update</pre>
+            </li>
+            <li>Install Node.js and npm:
+                <pre>sudo apt install nodejs npm</pre>
+            </li>
+            <li>Install Ganache globally:
+                <pre>npm install -g ganache</pre>
+            </li>
+            <li>Run Ganache:
+                <pre>ganache</pre>
+            </li>
+        </ol>
+    </li>
+    <li>Deploy smart contracts:
+        <pre>truffle migrate</pre>
+    </li>
+    <li>Set up MetaMask:
+        <ol>
+            <li>Install MetaMask and import the wallet using the seed phrase provided by Ganache.</li>
+        </ol>
+    </li>
+    <li>Connect MetaMask to your local blockchain:
+        <ol>
+            <li>Add a new network manually in MetaMask with the details of your local blockchain.</li>
+        </ol>
+    </li>
+    <li>Run the frontend:
+        <pre>npm run dev</pre>
+    </li>
+</ol>
