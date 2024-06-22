@@ -80,3 +80,9 @@
 <ul>
     <li>The frontend periodically fetches data from the blockchain and updates the UI to reflect the latest listings and reviews.</li>
 </ul>
+<h3>Video Demo 📹🎥</h3>
+<p align="center">
+  <a href="https://youtu.be/sGOXX9iZYFM">
+    <img src="" alt="Watch the video" width="600">
+  </a>
+</p>
